@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>New Tab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Kembali menggunakan tag video biasa -->
+    <video id="bg-video" autoplay loop muted playsinline></video>
+    
+    <div id="video-overlay"></div>
+    
+    <div id="weather">
+        <div id="temp">--°C</div>
+        <div id="location">Mencari lokasi...</div>
+        <div id="condition">Menunggu data</div>
+    </div>
+
+    <div id="clock">00:00</div>
+
+    <div id="quote-container">
+        <div id="quote">"Loading quote..."</div>
+        <div id="author">- </div>
+    </div>
+
+    <div id="todo-container">
+        <div class="todo-header">Todos</div>
+        <ul id="todo-list"></ul>
+        <input type="text" id="new-todo" placeholder="New todo...">
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
